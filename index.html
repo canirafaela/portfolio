@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Rafaela Cani</title>
+</head>
+
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="/images/logo.png" alt="logo">
+                </a>
+            </div><!--logo-->
+            <nav class="desktop">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Experiências</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Projetos</a></li>
+                </ul>
+            </nav>
+            <div class="btn-contato">
+                <a href="#">
+                    <button>Contatos</button>
+                </a>
+            </div> <!--btn-contato-->
+        </div> <!--interface-->
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>Transformando linhas de código em soluções criativas e funcionais<span>.</span> </h1>
+                        <p>Sou uma estudante comprometida em desenvolver minhas habilidades e compartilhar meu trabalho
+                            através deste portfólio.
+                            Explore meus projetos e descubra meu potencial em constante evolução. </p>
+                        <div class="btn-contato">
+                            <a href="#">
+                                <button>Entre em contato.</button>
+                            </a>
+                        </div><!--btn-contato-->
+                    </div><!--txt-topo-site-->
+                    <div class="img-site">
+                        <img src="/images/perfil.png" alt="minha foto">
+                    </div><!--img-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section class="experiencias">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>EXPERIÊNCIAS.</span></h2>
+                <div class="flex">
+                    <div class="experiencias-box">
+                        <i class="bi bi-chat-square-text-fill"></i>
+                        <h3>Vendedora</h3>
+                        <p>Como vendedora, atuei no atendimento ao público, auxiliando na escolha de produtos e cobrança
+                            no
+                            caixa. Também realizava
+                            atividades adicionais, como organização da loja, recebimento de mercadorias e emissão de
+                            notas
+                            fiscais.</p>
+                    </div>
+                    <div class="experiencias-box">
+                        <i class="bi bi-camera-fill"></i>
+                        <h3>Fotógrafa</h3>
+                        <p>Fotógrafa especializada em ensaios de recém-nascidos, liderando o processo criativo das
+                            sessões,
+                            incluindo
+                            cenários e iluminação. Gerenciava atendimento ao cliente presencial e nas redes sociais,
+                            incluindo
+                            orçamentos e
+                            pedidos. Responsável pela edição e montagem de álbuns de todas as fotos do estúdio.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="images/café.jpg" alt="">
+                    </div>
+
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER,<SPAN> SOU A RAFAELA CANI.</SPAN></h2>
+                        <p>Minha experiência prévia em vendas me proporcionou habilidades de comunicação e compreensão
+                            das necessidades do cliente,
+                            enquanto minha paixão pela fotografia desenvolveu minha criatividade e atenção aos detalhes.
+                            Essas habilidades,
+                            combinadas com meu estudo em programação, me capacitam a criar soluções tecnológicas
+                            inovadoras que atendam às necessidades específicas dos usuários com eficiência e estética.
+                        </p>
+                        <div class="btn-social">
+                            <a href="https://instagram.com/canirafaelaa"> <button><i class="bi bi-instagram"></i>
+                                </button>
+                            </a>
+                            <a href="https://linkedin.com/in/caniirafaelaa"> <button><i class="bi bi-linkedin"></i>
+                                </button>
+                            </a>
+                            <a href="https://github.com/canirafaela"><button><i class="bi bi-github"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+                <div class="flex">
+                
+                    <div class="img-port" style="background-image: url(images/1.jpg);">
+                    <div class="overlay">Calculadora de IMC</div>
+                    <a href="https://canirafaela.github.io/calculadoraimc/"></a>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/2.jpg);">
+                    <div class="overlay">EspressoCode Co</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/3.jpg);">
+                    <div class="overlay">Affonso PetPlay</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">FALE <span>COMIGO.</span></h2>
+
+                <form  method="post" action="envia.php">
+                    <input type="text" name="nome" id="nome" placeholder="Seu nome completo:" required>
+                    <input type="text" name="email" id="email" placeholder="Seu email:" required>
+                    <input type="text" name="telefone" id="telefone" placeholder="Seu telefone:" required>
+                    <textarea name="msg" id="msg" placeholder="Sua mensagem:" required></textarea>
+                    <div class="btn-enviar">
+                        <input type="submit" value="ENVIAR">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+<footer>
+    <div class="interface">
+        <div class="line-footer">
+            <div class="flex">
+                <div class="logo-footer">
+                    <img src="images/logo.png" alt="Logo">
+                </div>
+                <div class="btn-social">
+                    <a href="https://instagram.com/canirafaelaa">
+                        <button><i class="bi bi-instagram"></i></button>
+                    </a>
+                    <a href="https://linkedin.com/in/caniirafaelaa">
+                        <button><i class="bi bi-linkedin"></i></button>
+                    </a>
+                    <a href="https://github.com/canirafaela">
+                        <button><i class="bi bi-github"></i></button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="line-footer borda">
+            <p><i class="bi bi-envelope"></i> <a href="mailto:rafaelam.cani@gmail.com">rafaelam.cani@gmail.com</a></p>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
